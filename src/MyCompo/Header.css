@@ -1,0 +1,82 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.navbar{
+    
+	
+    align-items: center;
+	width: 100%;
+	padding: 0.50% 0%;
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	box-shadow: 3px 3px 5px black;
+	
+}
+.navbar h1{
+	text-shadow: 0rem 0rem 1rem black;
+	font-size: 2rem;
+	color: white;
+}
+.navbar .opt li a{
+	font-size: 0.75rem;
+	text-decoration: none;
+     color: white;
+}
+.navbar .opt{
+
+	box-shadow: 3px 3px 5px  grey;
+    align-items: center;
+	text-transform: uppercase;
+	padding: 0.25rem 0rem;
+	display: flex;
+	width: 35%;
+	justify-content: space-around;
+	border-radius: 4rem;
+	background-color: black;
+	
+}
+.navbar li{
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+}
+.navbar li .search{
+	color: white;
+	border-style: none;
+	background-color: black;
+	font-size: 1rem;
+	padding-left: 5%;
+	width: 20rem;
+	height: 1.7rem;
+	border-radius: 1rem;
+	outline-style: none; 
+    border-color:black;
+    margin-top: 0.27rem;
+	align-items: center;
+}
+.navbar li .btn{
+	padding: 0%;
+	margin-top: 0%;
+    margin-left: 0.5rem;
+	text-transform: uppercase;	
+	background-color:white ;
+	width: 5rem;
+	height: 1.5rem;
+	border-radius: 2rem;
+	border-width: 0.10rem;
+	border-color: black;
+	align-items: center;
+}
+.navbar li .btn:hover{
+	color: white;
+	background-color:black ;
+	cursor: pointer;
+}
+
+
+
